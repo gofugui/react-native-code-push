@@ -27,5 +27,5 @@ android {
 
 dependencies {
     compile "com.facebook.react:react-native:+"
-    compile 'com.nimbusds:nimbus-jose-jwt:5.1'
+    implementation fileTree(dir: "libs", include: ["*.jar"])
 }
